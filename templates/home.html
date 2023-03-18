@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Salary Prediction</title>
+    <link rel ="stylesheet" href="/static/css/style.css">
+</head>
+<body background ="/static/images/Img.jpeg">
+    <div class ="input form">
+        <form action ="{{url_for('predict')}}" method ="post" id ="input head"> 
+            <h1 id ="heading">Energy Usage Prediction form</h1>
+            <h3 id ="input">Enter the date for prediction</h3>
+            <input type="date" name="date" placeholder="DD-MM-YYYY" value="" min="2016-12-18" max="2017-12-18" required>
+            <br>
+            <br>
+            <button id ="submit" type ="submit" >submit</button>
+        </form>
+    </div>
+</body>
+</html>
